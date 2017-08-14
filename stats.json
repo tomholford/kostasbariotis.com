@@ -1,68 +1,64 @@
 {
   "assetsByChunkName": {
     "commons": [
-      "commons-8a2bdbb75e9ddd177aef.js",
-      "commons-8a2bdbb75e9ddd177aef.js.map"
+      "commons-a73ac6988e1527d8dbb7.js",
+      "commons-a73ac6988e1527d8dbb7.js.map"
     ],
     "page-component---src-templates-blog-post-js": [
-      "page-component---src-templates-blog-post-js-cd8686991301bc1517d5.js",
-      "page-component---src-templates-blog-post-js-cd8686991301bc1517d5.js.map"
+      "page-component---src-templates-blog-post-js-9c1239f8546d30d0ea5e.js",
+      "page-component---src-templates-blog-post-js-9c1239f8546d30d0ea5e.js.map"
+    ],
+    "page-component---src-templates-tags-js": [
+      "page-component---src-templates-tags-js-43f94e5398278eb92656.js",
+      "page-component---src-templates-tags-js-43f94e5398278eb92656.js.map"
+    ],
+    "page-component---src-templates-page-js": [
+      "page-component---src-templates-page-js-2dc01dde10cb207fbc37.js",
+      "page-component---src-templates-page-js-2dc01dde10cb207fbc37.js.map"
     ],
     "layout-component---index": [
       "layout-component---index-293043d5d4d88c0e60c6.js",
       "layout-component---index-293043d5d4d88c0e60c6.js.map"
     ],
-    "page-component---src-templates-tags-js": [
-      "page-component---src-templates-tags-js-5013b04356418db58384.js",
-      "page-component---src-templates-tags-js-5013b04356418db58384.js.map"
-    ],
-    "page-component---src-templates-page-js": [
-      "page-component---src-templates-page-js-992ab2171b4b49710ff1.js",
-      "page-component---src-templates-page-js-992ab2171b4b49710ff1.js.map"
-    ],
-    "page-component---src-pages-about-js": [
-      "page-component---src-pages-about-js-1bc4bb186bc3215d49de.js",
-      "page-component---src-pages-about-js-1bc4bb186bc3215d49de.js.map"
-    ],
-    "page-component---src-pages-404-js": [
-      "page-component---src-pages-404-js-89baf1c0b61e00f1ab8a.js",
-      "page-component---src-pages-404-js-89baf1c0b61e00f1ab8a.js.map"
+    "page-component---src-pages-index-js": [
+      "page-component---src-pages-index-js-601325b67bbdd92d0fa5.js",
+      "page-component---src-pages-index-js-601325b67bbdd92d0fa5.js.map"
     ],
     "path---writing-a-custom-css-framework": [
-      "path---writing-a-custom-css-framework-56802aa07194edce5639.js",
-      "path---writing-a-custom-css-framework-56802aa07194edce5639.js.map"
+      "path---writing-a-custom-css-framework-72fadc31a0db6a1b5fd1.js",
+      "path---writing-a-custom-css-framework-72fadc31a0db6a1b5fd1.js.map"
     ],
     "path---william-petris-answer-on-quora-where-can-i-find-developers-willing-to-join-my-startup": [
-      "path---william-petris-answer-on-quora-where-can-i-find-developers-willing-to-join-my-startup-b89e604d06f90c33f273.js",
-      "path---william-petris-answer-on-quora-where-can-i-find-developers-willing-to-join-my-startup-b89e604d06f90c33f273.js.map"
+      "path---william-petris-answer-on-quora-where-can-i-find-developers-willing-to-join-my-startup-345c372e1e1f2ae9dce2.js",
+      "path---william-petris-answer-on-quora-where-can-i-find-developers-willing-to-join-my-startup-345c372e1e1f2ae9dce2.js.map"
     ],
     "path---what-ive-missed-over-vacations": [
-      "path---what-ive-missed-over-vacations-c72955f47b3e7effa1de.js",
-      "path---what-ive-missed-over-vacations-c72955f47b3e7effa1de.js.map"
+      "path---what-ive-missed-over-vacations-94cfc7d455de98da64cd.js",
+      "path---what-ive-missed-over-vacations-94cfc7d455de98da64cd.js.map"
     ],
     "path---valiation-the-most-awesome-validation-engine-ever-created-for-php": [
-      "path---valiation-the-most-awesome-validation-engine-ever-created-for-php-9493cf6e96ab88837549.js",
-      "path---valiation-the-most-awesome-validation-engine-ever-created-for-php-9493cf6e96ab88837549.js.map"
+      "path---valiation-the-most-awesome-validation-engine-ever-created-for-php-732f0d0a61059cec965e.js",
+      "path---valiation-the-most-awesome-validation-engine-ever-created-for-php-732f0d0a61059cec965e.js.map"
     ],
     "path---vagrantup-your-distributed-development-environment": [
-      "path---vagrantup-your-distributed-development-environment-209b90e48d845f1feee3.js",
-      "path---vagrantup-your-distributed-development-environment-209b90e48d845f1feee3.js.map"
+      "path---vagrantup-your-distributed-development-environment-34381527a2aa282a7392.js",
+      "path---vagrantup-your-distributed-development-environment-34381527a2aa282a7392.js.map"
     ],
     "path---user-stories": [
-      "path---user-stories-b2f70780a789f0be1854.js",
-      "path---user-stories-b2f70780a789f0be1854.js.map"
+      "path---user-stories-22beb1a7270bfb982f93.js",
+      "path---user-stories-22beb1a7270bfb982f93.js.map"
     ],
     "path---the-stories-in-my-head": [
-      "path---the-stories-in-my-head-7c65133ba1d2330bbfeb.js",
-      "path---the-stories-in-my-head-7c65133ba1d2330bbfeb.js.map"
+      "path---the-stories-in-my-head-78188ab72d38c6d34e8f.js",
+      "path---the-stories-in-my-head-78188ab72d38c6d34e8f.js.map"
     ],
     "path---the-keys-to-scaling-yourself-as-a-technology-leader": [
-      "path---the-keys-to-scaling-yourself-as-a-technology-leader-19a3f3d9506437ee7cfa.js",
-      "path---the-keys-to-scaling-yourself-as-a-technology-leader-19a3f3d9506437ee7cfa.js.map"
+      "path---the-keys-to-scaling-yourself-as-a-technology-leader-bd67aa32fa5f03ae2560.js",
+      "path---the-keys-to-scaling-yourself-as-a-technology-leader-bd67aa32fa5f03ae2560.js.map"
     ],
     "path---the-configuration-service": [
-      "path---the-configuration-service-a48e0c014d69322102ce.js",
-      "path---the-configuration-service-a48e0c014d69322102ce.js.map"
+      "path---the-configuration-service-e9dd5f746d06beac2940.js",
+      "path---the-configuration-service-e9dd5f746d06beac2940.js.map"
     ],
     "path---tag-workplace": [
       "path---tag-workplace-e547ee96a4d020a53dab.js",
@@ -365,52 +361,52 @@
       "path---tag-api-33d1c8c764915fbaf07c.js.map"
     ],
     "path---still-watching-tv-news-show": [
-      "path---still-watching-tv-news-show-9f51052e0a3cf9ce8eb6.js",
-      "path---still-watching-tv-news-show-9f51052e0a3cf9ce8eb6.js.map"
+      "path---still-watching-tv-news-show-9f2fcdd8d65a4421ae1f.js",
+      "path---still-watching-tv-news-show-9f2fcdd8d65a4421ae1f.js.map"
     ],
     "path---state-of-client-side-js-frameworks": [
-      "path---state-of-client-side-js-frameworks-f7ab277cf15d8c40d6ca.js",
-      "path---state-of-client-side-js-frameworks-f7ab277cf15d8c40d6ca.js.map"
+      "path---state-of-client-side-js-frameworks-ce8438931cf311b34f0c.js",
+      "path---state-of-client-side-js-frameworks-ce8438931cf311b34f0c.js.map"
     ],
     "path---simplicity-is-the-key-after-all": [
-      "path---simplicity-is-the-key-after-all-eeaf303eb2a702405fd9.js",
-      "path---simplicity-is-the-key-after-all-eeaf303eb2a702405fd9.js.map"
+      "path---simplicity-is-the-key-after-all-e272d21cc00a7050f1eb.js",
+      "path---simplicity-is-the-key-after-all-e272d21cc00a7050f1eb.js.map"
     ],
     "path---sending-and-receiving-emails-with-a-site-hosted-on-github-pages": [
-      "path---sending-and-receiving-emails-with-a-site-hosted-on-github-pages-c700c39431e8e46c5052.js",
-      "path---sending-and-receiving-emails-with-a-site-hosted-on-github-pages-c700c39431e8e46c5052.js.map"
+      "path---sending-and-receiving-emails-with-a-site-hosted-on-github-pages-52dcd7572c432aca7f3f.js",
+      "path---sending-and-receiving-emails-with-a-site-hosted-on-github-pages-52dcd7572c432aca7f3f.js.map"
     ],
     "path---scaling-your-team": [
-      "path---scaling-your-team-0b07430643655873f587.js",
-      "path---scaling-your-team-0b07430643655873f587.js.map"
+      "path---scaling-your-team-4e421e905ead6afe15a7.js",
+      "path---scaling-your-team-4e421e905ead6afe15a7.js.map"
     ],
     "path---rest-api-error-handling-with-express-js": [
-      "path---rest-api-error-handling-with-express-js-3d0405f7e8c6c3dcd723.js",
-      "path---rest-api-error-handling-with-express-js-3d0405f7e8c6c3dcd723.js.map"
+      "path---rest-api-error-handling-with-express-js-6d96ce5dce01c97b5979.js",
+      "path---rest-api-error-handling-with-express-js-6d96ce5dce01c97b5979.js.map"
     ],
     "path---removing-js-scripts-from-cms-pages": [
-      "path---removing-js-scripts-from-cms-pages-64d5b26e1d4ec45a8d7b.js",
-      "path---removing-js-scripts-from-cms-pages-64d5b26e1d4ec45a8d7b.js.map"
+      "path---removing-js-scripts-from-cms-pages-9488fb84e0d0c661ca29.js",
+      "path---removing-js-scripts-from-cms-pages-9488fb84e0d0c661ca29.js.map"
     ],
     "path---removeeventlistener-and-this": [
-      "path---removeeventlistener-and-this-7f2a23023ec8d38e3783.js",
-      "path---removeeventlistener-and-this-7f2a23023ec8d38e3783.js.map"
+      "path---removeeventlistener-and-this-a3507dcf2700d0edf226.js",
+      "path---removeeventlistener-and-this-a3507dcf2700d0edf226.js.map"
     ],
     "path---references-from-my-javascript-101": [
-      "path---references-from-my-javascript-101-06ee601c7317faf8e1ec.js",
-      "path---references-from-my-javascript-101-06ee601c7317faf8e1ec.js.map"
+      "path---references-from-my-javascript-101-c2f346d64e9da9bcfb27.js",
+      "path---references-from-my-javascript-101-c2f346d64e9da9bcfb27.js.map"
     ],
     "path---queue-centric-workflow": [
-      "path---queue-centric-workflow-b187d2f13f9bd379edf6.js",
-      "path---queue-centric-workflow-b187d2f13f9bd379edf6.js.map"
+      "path---queue-centric-workflow-dd3f6df0b0738250b8b9.js",
+      "path---queue-centric-workflow-dd3f6df0b0738250b8b9.js.map"
     ],
     "path---peges-empneuses-102": [
-      "path---peges-empneuses-102-68cdf6be142d1768e9c3.js",
-      "path---peges-empneuses-102-68cdf6be142d1768e9c3.js.map"
+      "path---peges-empneuses-102-821186fbfc9313079454.js",
+      "path---peges-empneuses-102-821186fbfc9313079454.js.map"
     ],
     "path---peges-empneuses-101": [
-      "path---peges-empneuses-101-947d55a414d1c56df030.js",
-      "path---peges-empneuses-101-947d55a414d1c56df030.js.map"
+      "path---peges-empneuses-101-19c3a62258e5e36b115d.js",
+      "path---peges-empneuses-101-19c3a62258e5e36b115d.js.map"
     ],
     "path---page-9": [
       "path---page-9-e2589715b8d4cb309ce5.js",
@@ -469,180 +465,180 @@
       "path---page-0-f01d882cad965b6135ff.js.map"
     ],
     "path---node-js-recursion": [
-      "path---node-js-recursion-cb9cd3bc718d8f55d0db.js",
-      "path---node-js-recursion-cb9cd3bc718d8f55d0db.js.map"
+      "path---node-js-recursion-3932eb655b690b08aa2c.js",
+      "path---node-js-recursion-3932eb655b690b08aa2c.js.map"
     ],
     "path---my-first-oscon": [
-      "path---my-first-oscon-9ab106b6c21ef2f6b976.js",
-      "path---my-first-oscon-9ab106b6c21ef2f6b976.js.map"
+      "path---my-first-oscon-9ca708046cc8653370cd.js",
+      "path---my-first-oscon-9ca708046cc8653370cd.js.map"
     ],
     "path---multiple-php-versions-on-wampserver": [
-      "path---multiple-php-versions-on-wampserver-d1a9624dec73288997e0.js",
-      "path---multiple-php-versions-on-wampserver-d1a9624dec73288997e0.js.map"
+      "path---multiple-php-versions-on-wampserver-2ff30ef6e8303a5982ea.js",
+      "path---multiple-php-versions-on-wampserver-2ff30ef6e8303a5982ea.js.map"
     ],
     "path---mongoose-objects-and-the-in-operator": [
-      "path---mongoose-objects-and-the-in-operator-fea94ceca3511eb34519.js",
-      "path---mongoose-objects-and-the-in-operator-fea94ceca3511eb34519.js.map"
+      "path---mongoose-objects-and-the-in-operator-6ccc4b36acb9df87c03d.js",
+      "path---mongoose-objects-and-the-in-operator-6ccc4b36acb9df87c03d.js.map"
     ],
     "path---mongodb-aggregation-lookup-for-joins": [
-      "path---mongodb-aggregation-lookup-for-joins-9b5fbc2831a4ad18f66e.js",
-      "path---mongodb-aggregation-lookup-for-joins-9b5fbc2831a4ad18f66e.js.map"
+      "path---mongodb-aggregation-lookup-for-joins-b0f477a7835643fecf37.js",
+      "path---mongodb-aggregation-lookup-for-joins-b0f477a7835643fecf37.js.map"
     ],
     "path---men-xekhasete-tis-leptomereie": [
-      "path---men-xekhasete-tis-leptomereie-4f40903ddd2cbbd52aaf.js",
-      "path---men-xekhasete-tis-leptomereie-4f40903ddd2cbbd52aaf.js.map"
+      "path---men-xekhasete-tis-leptomereie-011859a838cd83540117.js",
+      "path---men-xekhasete-tis-leptomereie-011859a838cd83540117.js.map"
     ],
     "path---making-a-rest-api-discoverable": [
-      "path---making-a-rest-api-discoverable-d32dd1812c5aa440c8e7.js",
-      "path---making-a-rest-api-discoverable-d32dd1812c5aa440c8e7.js.map"
+      "path---making-a-rest-api-discoverable-d526bb8c99bc4460dcb2.js",
+      "path---making-a-rest-api-discoverable-d526bb8c99bc4460dcb2.js.map"
     ],
     "path---maintaining-a-magento-code-base": [
-      "path---maintaining-a-magento-code-base-de9d641a203b59cbfcec.js",
-      "path---maintaining-a-magento-code-base-de9d641a203b59cbfcec.js.map"
+      "path---maintaining-a-magento-code-base-a3859d9d53d8d8cacd4a.js",
+      "path---maintaining-a-magento-code-base-a3859d9d53d8d8cacd4a.js.map"
     ],
     "path---magentovarien-lib-php-memory-limit-1-bug": [
-      "path---magentovarien-lib-php-memory-limit-1-bug-5f594548883fcc450d44.js",
-      "path---magentovarien-lib-php-memory-limit-1-bug-5f594548883fcc450d44.js.map"
+      "path---magentovarien-lib-php-memory-limit-1-bug-4165b280fa0e66a7b9be.js",
+      "path---magentovarien-lib-php-memory-limit-1-bug-4165b280fa0e66a7b9be.js.map"
     ],
     "path---magento-2-roadmap-long-walk-to-freedom": [
-      "path---magento-2-roadmap-long-walk-to-freedom-d1e7960189f18bbe9d33.js",
-      "path---magento-2-roadmap-long-walk-to-freedom-d1e7960189f18bbe9d33.js.map"
+      "path---magento-2-roadmap-long-walk-to-freedom-9277a63dcc01214db40a.js",
+      "path---magento-2-roadmap-long-walk-to-freedom-9277a63dcc01214db40a.js.map"
     ],
     "path---live-the-dream": [
-      "path---live-the-dream-732a35f3055e464128ed.js",
-      "path---live-the-dream-732a35f3055e464128ed.js.map"
+      "path---live-the-dream-09d15a3fe2e7456ff629.js",
+      "path---live-the-dream-09d15a3fe2e7456ff629.js.map"
     ],
     "path---jwt-the-modern-way-of-authenticating": [
-      "path---jwt-the-modern-way-of-authenticating-519e0382946c6b7713d4.js",
-      "path---jwt-the-modern-way-of-authenticating-519e0382946c6b7713d4.js.map"
+      "path---jwt-the-modern-way-of-authenticating-66bfbbfd9e8aa096260c.js",
+      "path---jwt-the-modern-way-of-authenticating-66bfbbfd9e8aa096260c.js.map"
     ],
     "path---it-makes-sense": [
-      "path---it-makes-sense-6002cf72784b0708befd.js",
-      "path---it-makes-sense-6002cf72784b0708befd.js.map"
+      "path---it-makes-sense-566dc760801ffac4835f.js",
+      "path---it-makes-sense-566dc760801ffac4835f.js.map"
     ],
     "path---isolated-unit-tests-with-sinonjs": [
-      "path---isolated-unit-tests-with-sinonjs-43385fdf70aac102c16d.js",
-      "path---isolated-unit-tests-with-sinonjs-43385fdf70aac102c16d.js.map"
+      "path---isolated-unit-tests-with-sinonjs-1adf6f9ee63f15b5f8f6.js",
+      "path---isolated-unit-tests-with-sinonjs-1adf6f9ee63f15b5f8f6.js.map"
     ],
     "path---introducing-stargento-com": [
-      "path---introducing-stargento-com-d2ee64490482065aba26.js",
-      "path---introducing-stargento-com-d2ee64490482065aba26.js.map"
+      "path---introducing-stargento-com-e5602908fd11b40a157f.js",
+      "path---introducing-stargento-com-e5602908fd11b40a157f.js.map"
     ],
     "path---interviewer-vs-interviewee": [
-      "path---interviewer-vs-interviewee-40bf7fd12dde0aba943c.js",
-      "path---interviewer-vs-interviewee-40bf7fd12dde0aba943c.js.map"
+      "path---interviewer-vs-interviewee-65a6198491bbc0de5edf.js",
+      "path---interviewer-vs-interviewee-65a6198491bbc0de5edf.js.map"
     ],
     "path---inspiration-motivation-action": [
-      "path---inspiration-motivation-action-337298b83046108b5162.js",
-      "path---inspiration-motivation-action-337298b83046108b5162.js.map"
+      "path---inspiration-motivation-action-4c1441b90675fccf15c1.js",
+      "path---inspiration-motivation-action-4c1441b90675fccf15c1.js.map"
     ],
     "path---index": [
-      "path---index-8e2d50fffef0d604619e.js",
-      "path---index-8e2d50fffef0d604619e.js.map"
+      "path---index-339f83f6ab6115a8d42a.js",
+      "path---index-339f83f6ab6115a8d42a.js.map"
     ],
     "path---immutable-objects-javascript": [
-      "path---immutable-objects-javascript-4cbd4bed8d97bea1bb91.js",
-      "path---immutable-objects-javascript-4cbd4bed8d97bea1bb91.js.map"
+      "path---immutable-objects-javascript-6ef442d210a1348f90cb.js",
+      "path---immutable-objects-javascript-6ef442d210a1348f90cb.js.map"
     ],
     "path---how-to-keep-up-on-seo": [
-      "path---how-to-keep-up-on-seo-7a07150f1b391e8cbc5d.js",
-      "path---how-to-keep-up-on-seo-7a07150f1b391e8cbc5d.js.map"
+      "path---how-to-keep-up-on-seo-3b2c9541f3d619c4565d.js",
+      "path---how-to-keep-up-on-seo-3b2c9541f3d619c4565d.js.map"
     ],
     "path---how-to-be-a-programmer-by-robert-l-read": [
-      "path---how-to-be-a-programmer-by-robert-l-read-544be521f1b4c75e49c0.js",
-      "path---how-to-be-a-programmer-by-robert-l-read-544be521f1b4c75e49c0.js.map"
+      "path---how-to-be-a-programmer-by-robert-l-read-5fe0a060021bb5bf1d12.js",
+      "path---how-to-be-a-programmer-by-robert-l-read-5fe0a060021bb5bf1d12.js.map"
     ],
     "path---how-i-failed-landing-a-remote-position": [
-      "path---how-i-failed-landing-a-remote-position-63e678af515447525a4a.js",
-      "path---how-i-failed-landing-a-remote-position-63e678af515447525a4a.js.map"
+      "path---how-i-failed-landing-a-remote-position-261692e0b53730fbac97.js",
+      "path---how-i-failed-landing-a-remote-position-261692e0b53730fbac97.js.map"
     ],
     "path---heres-your-chance-to-ask-president-barosso": [
-      "path---heres-your-chance-to-ask-president-barosso-7ecd66199a7f1516e887.js",
-      "path---heres-your-chance-to-ask-president-barosso-7ecd66199a7f1516e887.js.map"
+      "path---heres-your-chance-to-ask-president-barosso-ba23c1befc225fe021c3.js",
+      "path---heres-your-chance-to-ask-president-barosso-ba23c1befc225fe021c3.js.map"
     ],
     "path---hands-on-react-js": [
-      "path---hands-on-react-js-ededad4a2d991cb9b92c.js",
-      "path---hands-on-react-js-ededad4a2d991cb9b92c.js.map"
+      "path---hands-on-react-js-6a24c49e1bea30cab589.js",
+      "path---hands-on-react-js-6a24c49e1bea30cab589.js.map"
     ],
     "path---google-street-maps-fukushima": [
-      "path---google-street-maps-fukushima-e3a5cef2cec1a03d26f7.js",
-      "path---google-street-maps-fukushima-e3a5cef2cec1a03d26f7.js.map"
+      "path---google-street-maps-fukushima-9b4c5dfed34196bd7879.js",
+      "path---google-street-maps-fukushima-9b4c5dfed34196bd7879.js.map"
     ],
     "path---go-canonical-import-paths-github-forks": [
-      "path---go-canonical-import-paths-github-forks-fc7b2f14bb8f87cd7567.js",
-      "path---go-canonical-import-paths-github-forks-fc7b2f14bb8f87cd7567.js.map"
+      "path---go-canonical-import-paths-github-forks-23e592c30330355f0fda.js",
+      "path---go-canonical-import-paths-github-forks-23e592c30330355f0fda.js.map"
     ],
     "path---gityeller-com-weekend-project": [
-      "path---gityeller-com-weekend-project-c871f8e9fcc12184c8af.js",
-      "path---gityeller-com-weekend-project-c871f8e9fcc12184c8af.js.map"
+      "path---gityeller-com-weekend-project-a5db07ccd67eab6ca34b.js",
+      "path---gityeller-com-weekend-project-a5db07ccd67eab6ca34b.js.map"
     ],
     "path---geospatial-query-with-mongodb-and-node-js": [
-      "path---geospatial-query-with-mongodb-and-node-js-4a43d9268aca00667ae9.js",
-      "path---geospatial-query-with-mongodb-and-node-js-4a43d9268aca00667ae9.js.map"
+      "path---geospatial-query-with-mongodb-and-node-js-a451043c84345eda7520.js",
+      "path---geospatial-query-with-mongodb-and-node-js-a451043c84345eda7520.js.map"
     ],
     "path---environment-based-application-configuration-using-webpack": [
-      "path---environment-based-application-configuration-using-webpack-c9c0d76eddda373719fa.js",
-      "path---environment-based-application-configuration-using-webpack-c9c0d76eddda373719fa.js.map"
+      "path---environment-based-application-configuration-using-webpack-f7387d5edac5243370b0.js",
+      "path---environment-based-application-configuration-using-webpack-f7387d5edac5243370b0.js.map"
     ],
     "path---drafts": [
       "path---drafts-7b219b47f39fd79c081c.js",
       "path---drafts-7b219b47f39fd79c081c.js.map"
     ],
     "path---drafts-what-not-to-do-for-beginners": [
-      "path---drafts-what-not-to-do-for-beginners-cfb8b4b931ef11f4343b.js",
-      "path---drafts-what-not-to-do-for-beginners-cfb8b4b931ef11f4343b.js.map"
+      "path---drafts-what-not-to-do-for-beginners-34fa96fbd3be6bc1599e.js",
+      "path---drafts-what-not-to-do-for-beginners-34fa96fbd3be6bc1599e.js.map"
     ],
     "path---drafts-untitled-4": [
-      "path---drafts-untitled-4-128bff658d35c8d84700.js",
-      "path---drafts-untitled-4-128bff658d35c8d84700.js.map"
+      "path---drafts-untitled-4-d0967fbfc109fe796fd6.js",
+      "path---drafts-untitled-4-d0967fbfc109fe796fd6.js.map"
     ],
     "path---drafts-untitled-3": [
-      "path---drafts-untitled-3-1d359eeeb38c547207af.js",
-      "path---drafts-untitled-3-1d359eeeb38c547207af.js.map"
+      "path---drafts-untitled-3-4ead08f13bf85492aea1.js",
+      "path---drafts-untitled-3-4ead08f13bf85492aea1.js.map"
     ],
     "path---drafts-untitled-2": [
-      "path---drafts-untitled-2-618bd91bfe164b1c0a7b.js",
-      "path---drafts-untitled-2-618bd91bfe164b1c0a7b.js.map"
+      "path---drafts-untitled-2-1549cf68bd7f882ef359.js",
+      "path---drafts-untitled-2-1549cf68bd7f882ef359.js.map"
     ],
     "path---drafts-ui-thread-free": [
-      "path---drafts-ui-thread-free-a7bebeca423eb788f433.js",
-      "path---drafts-ui-thread-free-a7bebeca423eb788f433.js.map"
+      "path---drafts-ui-thread-free-189567033eadea54c528.js",
+      "path---drafts-ui-thread-free-189567033eadea54c528.js.map"
     ],
     "path---drafts-the-reason-i-do-what-i-do": [
-      "path---drafts-the-reason-i-do-what-i-do-02d359b76d265ddd49c0.js",
-      "path---drafts-the-reason-i-do-what-i-do-02d359b76d265ddd49c0.js.map"
+      "path---drafts-the-reason-i-do-what-i-do-0760c52c7abf9a16ab0d.js",
+      "path---drafts-the-reason-i-do-what-i-do-0760c52c7abf9a16ab0d.js.map"
     ],
     "path---drafts-the-microfunctions-architecture": [
-      "path---drafts-the-microfunctions-architecture-7c62abe31b263670eb5a.js",
-      "path---drafts-the-microfunctions-architecture-7c62abe31b263670eb5a.js.map"
+      "path---drafts-the-microfunctions-architecture-7b7478dbe50c9706d1b0.js",
+      "path---drafts-the-microfunctions-architecture-7b7478dbe50c9706d1b0.js.map"
     ],
     "path---drafts-the-error-object-in-javascript": [
-      "path---drafts-the-error-object-in-javascript-55bf9f2a8da060bf253c.js",
-      "path---drafts-the-error-object-in-javascript-55bf9f2a8da060bf253c.js.map"
+      "path---drafts-the-error-object-in-javascript-b00ee044e81c7a8379c5.js",
+      "path---drafts-the-error-object-in-javascript-b00ee044e81c7a8379c5.js.map"
     ],
     "path---drafts-testing": [
-      "path---drafts-testing-019698c3be04ef3486a8.js",
-      "path---drafts-testing-019698c3be04ef3486a8.js.map"
+      "path---drafts-testing-cff30855d173f51d6b41.js",
+      "path---drafts-testing-cff30855d173f51d6b41.js.map"
     ],
     "path---drafts-tell-me-about-a-situation-where-you-were-disagreeing-with-other-people-on-the-team": [
-      "path---drafts-tell-me-about-a-situation-where-you-were-disagreeing-with-other-people-on-the-team-68f5eb77f840cdb29c57.js",
-      "path---drafts-tell-me-about-a-situation-where-you-were-disagreeing-with-other-people-on-the-team-68f5eb77f840cdb29c57.js.map"
+      "path---drafts-tell-me-about-a-situation-where-you-were-disagreeing-with-other-people-on-the-team-90928018ba8febd94f88.js",
+      "path---drafts-tell-me-about-a-situation-where-you-were-disagreeing-with-other-people-on-the-team-90928018ba8febd94f88.js.map"
     ],
     "path---drafts-securing-your-expressjs-app": [
-      "path---drafts-securing-your-expressjs-app-5faa131b2cbd5c0e2520.js",
-      "path---drafts-securing-your-expressjs-app-5faa131b2cbd5c0e2520.js.map"
+      "path---drafts-securing-your-expressjs-app-7696d586081d4df30fc0.js",
+      "path---drafts-securing-your-expressjs-app-7696d586081d4df30fc0.js.map"
     ],
     "path---drafts-secrets-of-mongo-shell": [
-      "path---drafts-secrets-of-mongo-shell-8e9126ba7d893ec10e5d.js",
-      "path---drafts-secrets-of-mongo-shell-8e9126ba7d893ec10e5d.js.map"
+      "path---drafts-secrets-of-mongo-shell-274dbe304734259946a1.js",
+      "path---drafts-secrets-of-mongo-shell-274dbe304734259946a1.js.map"
     ],
     "path---drafts-rest-api-stress-test": [
-      "path---drafts-rest-api-stress-test-68ff0790580af06f160c.js",
-      "path---drafts-rest-api-stress-test-68ff0790580af06f160c.js.map"
+      "path---drafts-rest-api-stress-test-dafeb636f04e0793e1ae.js",
+      "path---drafts-rest-api-stress-test-dafeb636f04e0793e1ae.js.map"
     ],
     "path---drafts-relational-vs-no-relational": [
-      "path---drafts-relational-vs-no-relational-94c4307b1f92ca0e219a.js",
-      "path---drafts-relational-vs-no-relational-94c4307b1f92ca0e219a.js.map"
+      "path---drafts-relational-vs-no-relational-cc400e43c2673c994ec3.js",
+      "path---drafts-relational-vs-no-relational-cc400e43c2673c994ec3.js.map"
     ],
     "path---drafts-page-3": [
       "path---drafts-page-3-eeaccff7f3987ba73393.js",
@@ -661,92 +657,92 @@
       "path---drafts-page-0-6ae3f9a586b32a0eaed7.js.map"
     ],
     "path---drafts-our-auditing-service": [
-      "path---drafts-our-auditing-service-760b2246def526b2b65c.js",
-      "path---drafts-our-auditing-service-760b2246def526b2b65c.js.map"
+      "path---drafts-our-auditing-service-d9a7ef6738e626de2956.js",
+      "path---drafts-our-auditing-service-d9a7ef6738e626de2956.js.map"
     ],
     "path---drafts-moderl-static-site-generation": [
-      "path---drafts-moderl-static-site-generation-efcc2f7431613ec2884e.js",
-      "path---drafts-moderl-static-site-generation-efcc2f7431613ec2884e.js.map"
+      "path---drafts-moderl-static-site-generation-eacfcaa5e282b935b77d.js",
+      "path---drafts-moderl-static-site-generation-eacfcaa5e282b935b77d.js.map"
     ],
     "path---drafts-microservices-lets-talk-about-boundaries": [
-      "path---drafts-microservices-lets-talk-about-boundaries-72e4deea52ec0418428a.js",
-      "path---drafts-microservices-lets-talk-about-boundaries-72e4deea52ec0418428a.js.map"
+      "path---drafts-microservices-lets-talk-about-boundaries-509d44835fcb0783ba71.js",
+      "path---drafts-microservices-lets-talk-about-boundaries-509d44835fcb0783ba71.js.map"
     ],
     "path---drafts-how-does-the-future-of-e-commerce-looks-like": [
-      "path---drafts-how-does-the-future-of-e-commerce-looks-like-a528595345b124aca5bd.js",
-      "path---drafts-how-does-the-future-of-e-commerce-looks-like-a528595345b124aca5bd.js.map"
+      "path---drafts-how-does-the-future-of-e-commerce-looks-like-2785f737d885cc0157f4.js",
+      "path---drafts-how-does-the-future-of-e-commerce-looks-like-2785f737d885cc0157f4.js.map"
     ],
     "path---drafts-and-another-end": [
-      "path---drafts-and-another-end-4fc30c6fec8b755ab718.js",
-      "path---drafts-and-another-end-4fc30c6fec8b755ab718.js.map"
+      "path---drafts-and-another-end-6b70ea693bf0a503c44e.js",
+      "path---drafts-and-another-end-6b70ea693bf0a503c44e.js.map"
     ],
     "path---dont-know-what-im-doing": [
-      "path---dont-know-what-im-doing-2dc3628192371bea2b9b.js",
-      "path---dont-know-what-im-doing-2dc3628192371bea2b9b.js.map"
+      "path---dont-know-what-im-doing-828bcc151e073c0efcb0.js",
+      "path---dont-know-what-im-doing-828bcc151e073c0efcb0.js.map"
     ],
     "path---does-your-code-smells": [
-      "path---does-your-code-smells-21f8de126e068dac8432.js",
-      "path---does-your-code-smells-21f8de126e068dac8432.js.map"
+      "path---does-your-code-smells-be20dd9e702e3879ebd7.js",
+      "path---does-your-code-smells-be20dd9e702e3879ebd7.js.map"
     ],
     "path---deploying-nodejs-applications-digitalocean-ansible": [
-      "path---deploying-nodejs-applications-digitalocean-ansible-77e07f126dad8d868bef.js",
-      "path---deploying-nodejs-applications-digitalocean-ansible-77e07f126dad8d868bef.js.map"
+      "path---deploying-nodejs-applications-digitalocean-ansible-16b602eb26a090647d77.js",
+      "path---deploying-nodejs-applications-digitalocean-ansible-16b602eb26a090647d77.js.map"
     ],
     "path---data-migration-with-nodejs": [
-      "path---data-migration-with-nodejs-825694cbb4b53ae1d40a.js",
-      "path---data-migration-with-nodejs-825694cbb4b53ae1d40a.js.map"
+      "path---data-migration-with-nodejs-fcbec86040a77d590563.js",
+      "path---data-migration-with-nodejs-fcbec86040a77d590563.js.map"
     ],
     "path---consistent-dependencies-across-teams": [
-      "path---consistent-dependencies-across-teams-d412034cfd441328cfd9.js",
-      "path---consistent-dependencies-across-teams-d412034cfd441328cfd9.js.map"
+      "path---consistent-dependencies-across-teams-a3fa39c84e363d95a1fc.js",
+      "path---consistent-dependencies-across-teams-a3fa39c84e363d95a1fc.js.map"
     ],
     "path---composer-hangs-while-installingupdating-dependencies": [
-      "path---composer-hangs-while-installingupdating-dependencies-360074cd022b88d1a0bc.js",
-      "path---composer-hangs-while-installingupdating-dependencies-360074cd022b88d1a0bc.js.map"
+      "path---composer-hangs-while-installingupdating-dependencies-e7b9f561803a0b7cdb89.js",
+      "path---composer-hangs-while-installingupdating-dependencies-e7b9f561803a0b7cdb89.js.map"
     ],
     "path---common-concurrency-problems": [
-      "path---common-concurrency-problems-a3b9bc793383effb9202.js",
-      "path---common-concurrency-problems-a3b9bc793383effb9202.js.map"
+      "path---common-concurrency-problems-a03a082801b48075edb3.js",
+      "path---common-concurrency-problems-a03a082801b48075edb3.js.map"
     ],
     "path---choosing-your-next-tool": [
-      "path---choosing-your-next-tool-271fe2161820b1316e9b.js",
-      "path---choosing-your-next-tool-271fe2161820b1316e9b.js.map"
+      "path---choosing-your-next-tool-e6c6a3c3c5da8b32b159.js",
+      "path---choosing-your-next-tool-e6c6a3c3c5da8b32b159.js.map"
     ],
     "path---chase-my-money-dont-waste-my-time": [
-      "path---chase-my-money-dont-waste-my-time-46ac331726b3cb177308.js",
-      "path---chase-my-money-dont-waste-my-time-46ac331726b3cb177308.js.map"
+      "path---chase-my-money-dont-waste-my-time-b76defb305c44635e6be.js",
+      "path---chase-my-money-dont-waste-my-time-b76defb305c44635e6be.js.map"
     ],
     "path---bugsense-wins": [
-      "path---bugsense-wins-d11f20ac08b5fc2f7169.js",
-      "path---bugsense-wins-d11f20ac08b5fc2f7169.js.map"
+      "path---bugsense-wins-c89f5d1b8acfd5c2a88f.js",
+      "path---bugsense-wins-c89f5d1b8acfd5c2a88f.js.map"
     ],
     "path---beyond-sunset": [
-      "path---beyond-sunset-244f1863fef2a021a6f7.js",
-      "path---beyond-sunset-244f1863fef2a021a6f7.js.map"
+      "path---beyond-sunset-4168cbc60bd3242f2be7.js",
+      "path---beyond-sunset-4168cbc60bd3242f2be7.js.map"
     ],
     "path---backbone-js-tips-and-patterns": [
-      "path---backbone-js-tips-and-patterns-7cc0443fd152298fcb8a.js",
-      "path---backbone-js-tips-and-patterns-7cc0443fd152298fcb8a.js.map"
+      "path---backbone-js-tips-and-patterns-767195a9b68bd0dfa245.js",
+      "path---backbone-js-tips-and-patterns-767195a9b68bd0dfa245.js.map"
     ],
     "path---automated-gui-testing-solutions": [
-      "path---automated-gui-testing-solutions-7b24adcd308c9764906d.js",
-      "path---automated-gui-testing-solutions-7b24adcd308c9764906d.js.map"
+      "path---automated-gui-testing-solutions-6413014922ad709deb37.js",
+      "path---automated-gui-testing-solutions-6413014922ad709deb37.js.map"
     ],
     "path---are-you-the-best-in-the-room": [
-      "path---are-you-the-best-in-the-room-c3fc691d60ebf1064c11.js",
-      "path---are-you-the-best-in-the-room-c3fc691d60ebf1064c11.js.map"
+      "path---are-you-the-best-in-the-room-f873f88823fad404f84b.js",
+      "path---are-you-the-best-in-the-room-f873f88823fad404f84b.js.map"
     ],
     "path---add-configuration-file-to-your-php-projects": [
-      "path---add-configuration-file-to-your-php-projects-a77842f984a3f31749ad.js",
-      "path---add-configuration-file-to-your-php-projects-a77842f984a3f31749ad.js.map"
+      "path---add-configuration-file-to-your-php-projects-6ad33f8e0576624953a1.js",
+      "path---add-configuration-file-to-your-php-projects-6ad33f8e0576624953a1.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---a-collection-of-php-libraries-you-should-know": [
-      "path---a-collection-of-php-libraries-you-should-know-8b3f70f78cdf155ed8e7.js",
-      "path---a-collection-of-php-libraries-you-should-know-8b3f70f78cdf155ed8e7.js.map"
+      "path---a-collection-of-php-libraries-you-should-know-56f33c8933d91e6a0729.js",
+      "path---a-collection-of-php-libraries-you-should-know-56f33c8933d91e6a0729.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
@@ -757,16 +753,20 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---28-things-id-do-differently-next-time-around": [
-      "path---28-things-id-do-differently-next-time-around-d9a2565f6514ea299106.js",
-      "path---28-things-id-do-differently-next-time-around-d9a2565f6514ea299106.js.map"
-    ],
-    "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-f933a80ba092021d07ae.js",
-      "page-component---src-pages-index-js-f933a80ba092021d07ae.js.map"
+      "path---28-things-id-do-differently-next-time-around-0ecd51c02ed1918f2278.js",
+      "path---28-things-id-do-differently-next-time-around-0ecd51c02ed1918f2278.js.map"
     ],
     "page-component---src-pages-drafts-js": [
-      "page-component---src-pages-drafts-js-d094e253d4b2dda932e6.js",
-      "page-component---src-pages-drafts-js-d094e253d4b2dda932e6.js.map"
+      "page-component---src-pages-drafts-js-75557107a1ea5f6806c6.js",
+      "page-component---src-pages-drafts-js-75557107a1ea5f6806c6.js.map"
+    ],
+    "page-component---src-pages-about-js": [
+      "page-component---src-pages-about-js-328888839c73ec616851.js",
+      "page-component---src-pages-about-js-328888839c73ec616851.js.map"
+    ],
+    "page-component---src-pages-404-js": [
+      "page-component---src-pages-404-js-b42df517bfb0ca48d153.js",
+      "page-component---src-pages-404-js-b42df517bfb0ca48d153.js.map"
     ],
     "app": [
       "app-da3558e1cfc7465bca4a.js",
