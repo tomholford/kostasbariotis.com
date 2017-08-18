@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://kostasbariotis.com/tag/node.js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kostasbariotis.com/tag/node.js/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kostasbariotis.com/tag/node.js/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kostasbariotis.com/tag/reactjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kostasbariotis.com/tag/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://kostasbariotis.com/tag/javascript/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/interviews</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/job</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/engineers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/webpack</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/CSS</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/Bootstrap</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kostasbariotis.com/tag/node.js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kostasbariotis.com/tag/node.js/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kostasbariotis.com/tag/node.js/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/mongodb</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kostasbariotis.com/tag/javascript</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kostasbariotis.com/tag/javascript/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/DOM</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/Github</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/Github Pages</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -47,7 +48,6 @@
 <url> <loc>https://kostasbariotis.com/tag/express.js</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/skgnodejs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/meetup</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://kostasbariotis.com/tag/reactjs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/concurrency</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/dijkstra</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://kostasbariotis.com/tag/tools</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
