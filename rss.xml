@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kostas Bariotis' Blog]]></title><description><![CDATA[I'm Kostas Bariotis, a web developer, a proud wanderer and a passionate doer. My mission is to write clean and efficient code, to solve problems on the web and to learn something more.]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 19 Aug 2017 09:14:21 GMT</lastBuildDate><item><title><![CDATA[Modern static site generation]]></title><description><![CDATA[In this post, I will talk about static site generators. How they have evolved and why I switched from a  Ghost  powered site to  Gatsby.js...]]></description><link>https://kostasbariotis.com/modern-static-site-generation/</link><guid isPermaLink="false">https://kostasbariotis.com/modern-static-site-generation/</guid><pubDate>Fri, 18 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In this post, I will talk about static site generators. How they have evolved and why I switched from a &lt;a href=&quot;https://ghost.org&quot;&gt;Ghost&lt;/a&gt; powered site to &lt;a href=&quot;https://gatsbyjs.org&quot;&gt;Gatsby.js&lt;/a&gt;, a modern static site generator.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Kostas Bariotis' Blog]]></title><description><![CDATA[I'm Kostas Bariotis, a web developer, a proud wanderer and a passionate doer. My mission is to write clean and efficient code, to solve problems on the web and to learn something more.]]></description><link>http://github.com/dylang/node-rss</link><generator>RSS for Node</generator><lastBuildDate>Sat, 19 Aug 2017 09:17:41 GMT</lastBuildDate><item><title><![CDATA[Modern static site generation]]></title><description><![CDATA[In this post, I will talk about static site generators. How they have evolved and why I switched from a  Ghost  powered site to  Gatsby.js...]]></description><link>https://kostasbariotis.com/modern-static-site-generation/</link><guid isPermaLink="false">https://kostasbariotis.com/modern-static-site-generation/</guid><pubDate>Fri, 18 Aug 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;In this post, I will talk about static site generators. How they have evolved and why I switched from a &lt;a href=&quot;https://ghost.org&quot;&gt;Ghost&lt;/a&gt; powered site to &lt;a href=&quot;https://gatsbyjs.org&quot;&gt;Gatsby.js&lt;/a&gt;, a modern static site generator.&lt;/p&gt;
 &lt;h2&gt;Static site generators as we know them&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;, &lt;a href=&quot;https://hexo.io&quot;&gt;Hexo&lt;/a&gt;, &lt;a href=&quot;https://gohugo.io/&quot;&gt;Hugo&lt;/a&gt;. They do one thing and they do it well. I&apos;ve built a ton of sites using Jekyll hosted either on GitHub either somewhere else. They all work pretty much the same way:&lt;/p&gt;
 &lt;ul&gt;
@@ -332,35 +332,37 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;
 &lt;h2&gt;Stack&lt;/h2&gt;
 &lt;p&gt;GitYeller is built using JavaScript. Node.js and React more specifically. It&apos;s hosted on a &lt;a href=&quot;https://m.do.co/c/2b3d657e5315&quot;&gt;DigitalOcean droplet&lt;/a&gt;, uses a &lt;a href=&quot;https://letsencrypt.org/&quot;&gt;Let&apos;s Encrypt&lt;/a&gt; certificate, &lt;a href=&quot;https://www.mailgun.com&quot;&gt;Mailgun&lt;/a&gt; for transactional emails and a MongoDB for persistent storage.&lt;/p&gt;
 &lt;p&gt;It looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;
+&lt;p&gt;
           &lt;a
             class=&quot;gatsby-resp-image-link&quot;
-            title=&quot;original image&quot;
-            href=&quot;/static/56cb14d1d599ba64fc46546d2ec6c754-ae21e.png&quot;
+            href=&quot;/static/56cb14d1d599ba64fc46546d2ec6c754-832b6.png&quot;
             style=&quot;display: block&quot;
             target=&quot;_blank&quot;
+            rel=&quot;noopener&quot;
           &gt;
-            &lt;div
+            &lt;span
               class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; &quot;
+              style=&quot;position: relative; z-index: -1; display: block; &quot;
             &gt;
-              &lt;div
+              &lt;span
                 class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 12.254160363086234%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAjElEQVQI12P49OHrv29ff/wHYSC7ggEK3r766AgU+/Hh3eccmFhb8XLmyvRp7Oun3mSCib1782kRTP/XL98vMXz7/O333/cf/v959/7/9/efVjXlL2QH4RdP38T+/fzl//evP1tA/JqsWRylKRNFQIZUZc7gh4jNZP/08eu8f7///P/z5t3/f//+/QcAWrhiUN6XL64AAAAASUVORK5CYII=&apos;); background-size: cover;&quot;
+                style=&quot;padding-bottom: 12.254160363086234%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAACCAYAAABYBvyLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAjElEQVQI12P49OHrv29ff/wHYSC7ggEK3r766AgU+/Hh3eccmFhb8XLmyvRp7Oun3mSCib1782kRTP/XL98vMXz7/O333/cf/v959/7/9/efVjXlL2QH4RdP38T+/fzl//evP1tA/JqsWRylKRNFQIZUZc7gh4jNZP/08eu8f7///P/z5t3/f//+/QcAWrhiUN6XL64AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
               &gt;
                 &lt;img
                   class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
                   alt=&quot;&quot;
                   title=&quot;&quot;
-                  src=&quot;/static/56cb14d1d599ba64fc46546d2ec6c754-ba9a0.png&quot;
-                  srcset=&quot;/static/56cb14d1d599ba64fc46546d2ec6c754-125fe.png 163w,/static/56cb14d1d599ba64fc46546d2ec6c754-637de.png 325w,/static/56cb14d1d599ba64fc46546d2ec6c754-ba9a0.png 650w,/static/56cb14d1d599ba64fc46546d2ec6c754-ae21e.png 661w&quot;
-                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                  src=&quot;/static/56cb14d1d599ba64fc46546d2ec6c754-832b6.png&quot;
+                  srcset=&quot;/static/56cb14d1d599ba64fc46546d2ec6c754-92f91.png 188w,
+/static/56cb14d1d599ba64fc46546d2ec6c754-dc30f.png 375w,
+/static/56cb14d1d599ba64fc46546d2ec6c754-832b6.png 661w&quot;
+                  sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
                 /&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
           &lt;/a&gt;
-          &lt;/div&gt;&lt;/p&gt;
+          &lt;/p&gt;
 &lt;p&gt;So the Front End app is responsible for gathering emails from the user and inserting them into MongoDB. The worker is continuously traversing the collection and checking them against GitHub to see if there is anything new. It&apos;s that simple!&lt;/p&gt;
 &lt;h2&gt;Worker&lt;/h2&gt;
 &lt;p&gt;At first, I thought a queue would be a good fit for this since I needed to keep the order that the documents were being created. I knew that the purpose of a queue was to keep the messages processing in order but only to be processed once. I wanted to keep processing the same messages over and over again. So I decided to go with the simplest way possible. Let&apos;s have a worker continuously fetching a collection over and over again.&lt;/p&gt;
@@ -593,126 +595,140 @@ Button&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;prototype&lt
 &lt;p&gt;So here&apos;s a simple solution that involves having your site hosted on GitHub Pages, using Mailchimp for sending email campaigns and Namecheap as your domain registrar.&lt;/p&gt;
 &lt;h2&gt;Receiving emails&lt;/h2&gt;
 &lt;p&gt;For receiving emails, Namecheap has this great &lt;a href=&quot;https://www.namecheap.com/support/knowledgebase/article.aspx/308/76/how-can-i-set-up-free-email-forwarding-for-my-domain&quot;&gt;email forwarding feature&lt;/a&gt; that allows you to forward an incoming email to your domain in an external email. So I put my personal Gmail email there and I am able to receive emails.&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;
+&lt;p&gt;
           &lt;a
             class=&quot;gatsby-resp-image-link&quot;
-            title=&quot;original image&quot;
-            href=&quot;/static/ac29928edd2828fa9fbc8c52fda0d42c-fb0c2.png&quot;
+            href=&quot;/static/ac29928edd2828fa9fbc8c52fda0d42c-4812a.png&quot;
             style=&quot;display: block&quot;
             target=&quot;_blank&quot;
+            rel=&quot;noopener&quot;
           &gt;
-            &lt;div
+            &lt;span
               class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; &quot;
+              style=&quot;position: relative; z-index: -1; display: block; &quot;
             &gt;
-              &lt;div
+              &lt;span
                 class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 22.45989304812834%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAaUlEQVQY032OWQqAMAwFvf8pFdT+CO7NUu0zCIJCbGBISGBeqrbrUdcNRAQ5Z4QQwMz37EFExXsFpyQl6HG4kAVvJo3W3/stRoiqL+R5QpxG0LqClwG8z78Bb5LhCtU+lAeV4scf4XniAsiPOq9tajTMAAAAAElFTkSuQmCC&apos;); background-size: cover;&quot;
+                style=&quot;padding-bottom: 22.45989304812834%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsSAAALEgHS3X78AAAAaUlEQVQY032OWQqAMAwFvf8pFdT+CO7NUu0zCIJCbGBISGBeqrbrUdcNRAQ5Z4QQwMz37EFExXsFpyQl6HG4kAVvJo3W3/stRoiqL+R5QpxG0LqClwG8z78Bb5LhCtU+lAeV4scf4XniAsiPOq9tajTMAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
               &gt;
                 &lt;img
                   class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
                   alt=&quot;Hello&quot;
                   title=&quot;&quot;
-                  src=&quot;/static/ac29928edd2828fa9fbc8c52fda0d42c-ba9a0.png&quot;
-                  srcset=&quot;/static/ac29928edd2828fa9fbc8c52fda0d42c-125fe.png 163w,/static/ac29928edd2828fa9fbc8c52fda0d42c-637de.png 325w,/static/ac29928edd2828fa9fbc8c52fda0d42c-ba9a0.png 650w,/static/ac29928edd2828fa9fbc8c52fda0d42c-31247.png 975w,/static/ac29928edd2828fa9fbc8c52fda0d42c-fb0c2.png 1122w&quot;
-                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                  src=&quot;/static/ac29928edd2828fa9fbc8c52fda0d42c-cd462.png&quot;
+                  srcset=&quot;/static/ac29928edd2828fa9fbc8c52fda0d42c-92f91.png 188w,
+/static/ac29928edd2828fa9fbc8c52fda0d42c-dc30f.png 375w,
+/static/ac29928edd2828fa9fbc8c52fda0d42c-cd462.png 750w,
+/static/ac29928edd2828fa9fbc8c52fda0d42c-4812a.png 1122w&quot;
+                  sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
                 /&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
           &lt;/a&gt;
-          &lt;/div&gt;&lt;/p&gt;
+          &lt;/p&gt;
 &lt;h2&gt;Sending emails&lt;/h2&gt;
 &lt;p&gt;Now Mailchimp allows you to &lt;a href=&quot;http://kb.mailchimp.com/accounts/email-authentication/set-up-custom-domain-authentication-dkim-and-spf&quot;&gt;add a custom domain&lt;/a&gt; to be able to send emails that originated from that domain. You need to verify this domain before you&apos;re able to send emails, so all you have to do is add a few records in your DNS settings and you are good to go. These are the instructions from Mailchimp.&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;
+&lt;p&gt;
           &lt;a
             class=&quot;gatsby-resp-image-link&quot;
-            title=&quot;original image&quot;
-            href=&quot;/static/6248fdc0dee20a1690e4200ef89d2e12-75d3f.png&quot;
+            href=&quot;/static/6248fdc0dee20a1690e4200ef89d2e12-71720.png&quot;
             style=&quot;display: block&quot;
             target=&quot;_blank&quot;
+            rel=&quot;noopener&quot;
           &gt;
-            &lt;div
+            &lt;span
               class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; &quot;
+              style=&quot;position: relative; z-index: -1; display: block; &quot;
             &gt;
-              &lt;div
+              &lt;span
                 class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 71.4663143989432%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABiUlEQVQ4y62TSW7CQBBFuSmXAHEKTsHMHWDBBlixYckgJCbbeMBjsA0//Ru6I5LY2cTSU3V1l79raFeq1Sr6/T46nQ4Gg4G0rVYL3W4XvV4P7XZbMhwOS+G7zWYTlVqtBt/3f8UwDGw2G2y3W6xWK6zXa+x2u8LY0WiESqPRwP1+R5Zlb+R5jjRNcbvd5Jp79LlWPs9U7OPxwHw+fwpGUYTT6YT9fi/t8XiEaZrSKrivzpRlVgqKasEkSWDbNhzHgeu6sCxL+qbtwBKYYm1cxLnrwfM8XK9XaYMgkPG0WrBer0uH6cdxrGFQmHzAixJ48ZNUxJU9WpAC5/NZps7sDoeDtPSZgSpXocpkDH3VZ10ym+2InjhC1BW9K5p6GWEYfgnyC9wgLJVDUkGy9JflJMt4E1QNZsNV0wn3PCLWHF4R1NCCvEu+6EcgpkzrXy5vBEIwfGVeBEW14H89WnC5XGI6nUpmsxkWiwXSLJf81bcfPeS/TKHxeCz/RdrJZAJLXGJTUFbmd/jeJ7wlBRZML1hqAAAAAElFTkSuQmCC&apos;); background-size: cover;&quot;
+                style=&quot;padding-bottom: 71.4663143989432%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAABiUlEQVQ4y62TSW7CQBBFuSmXAHEKTsHMHWDBBlixYckgJCbbeMBjsA0//Ru6I5LY2cTSU3V1l79raFeq1Sr6/T46nQ4Gg4G0rVYL3W4XvV4P7XZbMhwOS+G7zWYTlVqtBt/3f8UwDGw2G2y3W6xWK6zXa+x2u8LY0WiESqPRwP1+R5Zlb+R5jjRNcbvd5Jp79LlWPs9U7OPxwHw+fwpGUYTT6YT9fi/t8XiEaZrSKrivzpRlVgqKasEkSWDbNhzHgeu6sCxL+qbtwBKYYm1cxLnrwfM8XK9XaYMgkPG0WrBer0uH6cdxrGFQmHzAixJ48ZNUxJU9WpAC5/NZps7sDoeDtPSZgSpXocpkDH3VZ10ym+2InjhC1BW9K5p6GWEYfgnyC9wgLJVDUkGy9JflJMt4E1QNZsNV0wn3PCLWHF4R1NCCvEu+6EcgpkzrXy5vBEIwfGVeBEW14H89WnC5XGI6nUpmsxkWiwXSLJf81bcfPeS/TKHxeCz/RdrJZAJLXGJTUFbmd/jeJ7wlBRZML1hqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
               &gt;
                 &lt;img
                   class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
                   alt=&quot;&quot;
                   title=&quot;&quot;
-                  src=&quot;/static/6248fdc0dee20a1690e4200ef89d2e12-ba9a0.png&quot;
-                  srcset=&quot;/static/6248fdc0dee20a1690e4200ef89d2e12-125fe.png 163w,/static/6248fdc0dee20a1690e4200ef89d2e12-637de.png 325w,/static/6248fdc0dee20a1690e4200ef89d2e12-ba9a0.png 650w,/static/6248fdc0dee20a1690e4200ef89d2e12-75d3f.png 757w&quot;
-                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                  src=&quot;/static/6248fdc0dee20a1690e4200ef89d2e12-cd462.png&quot;
+                  srcset=&quot;/static/6248fdc0dee20a1690e4200ef89d2e12-92f91.png 188w,
+/static/6248fdc0dee20a1690e4200ef89d2e12-dc30f.png 375w,
+/static/6248fdc0dee20a1690e4200ef89d2e12-cd462.png 750w,
+/static/6248fdc0dee20a1690e4200ef89d2e12-71720.png 757w&quot;
+                  sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
                 /&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
           &lt;/a&gt;
-          &lt;/div&gt;&lt;/p&gt;
+          &lt;/p&gt;
 &lt;p&gt;And this is a screenshot from my DNS configuration from Namecheap.&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;
+&lt;p&gt;
           &lt;a
             class=&quot;gatsby-resp-image-link&quot;
-            title=&quot;original image&quot;
-            href=&quot;/static/5ca42794a3c0ac6dcb755f73c3c35a2b-f83dc.png&quot;
+            href=&quot;/static/5ca42794a3c0ac6dcb755f73c3c35a2b-e767d.png&quot;
             style=&quot;display: block&quot;
             target=&quot;_blank&quot;
+            rel=&quot;noopener&quot;
           &gt;
-            &lt;div
+            &lt;span
               class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; &quot;
+              style=&quot;position: relative; z-index: -1; display: block; &quot;
             &gt;
-              &lt;div
+              &lt;span
                 class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 40.229885057471265%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAAtUlEQVQoz4VSyxLDIAjM//9pe0g7iYrGBwWVDtFJctgBXFgYcDlSQuMcshVYB82PceI0AvH+OP5xJCxVwPspUXxDHKiiU95Q+902XHLOGKggl4Klg9+qJdQJqEFRvM5jXuJ9N02QH4MieHTxmdNFd4LW2ibIE2iR2PchfuoTT4JDcwBogmMR+xIn4vKFoPAnwXqUEE6L10dhjhdfLeHuKJuhHUbqbt8vdJ8VPcDlF3nCSmLc8AdAJ3Z/kNn3bQAAAABJRU5ErkJggg==&apos;); background-size: cover;&quot;
+                style=&quot;padding-bottom: 40.229885057471265%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAAAsSAAALEgHS3X78AAAAtUlEQVQoz4VSyxLDIAjM//9pe0g7iYrGBwWVDtFJctgBXFgYcDlSQuMcshVYB82PceI0AvH+OP5xJCxVwPspUXxDHKiiU95Q+902XHLOGKggl4Klg9+qJdQJqEFRvM5jXuJ9N02QH4MieHTxmdNFd4LW2ibIE2iR2PchfuoTT4JDcwBogmMR+xIn4vKFoPAnwXqUEE6L10dhjhdfLeHuKJuhHUbqbt8vdJ8VPcDlF3nCSmLc8AdAJ3Z/kNn3bQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
               &gt;
                 &lt;img
                   class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
                   alt=&quot;&quot;
                   title=&quot;&quot;
-                  src=&quot;/static/5ca42794a3c0ac6dcb755f73c3c35a2b-ba9a0.png&quot;
-                  srcset=&quot;/static/5ca42794a3c0ac6dcb755f73c3c35a2b-125fe.png 163w,/static/5ca42794a3c0ac6dcb755f73c3c35a2b-637de.png 325w,/static/5ca42794a3c0ac6dcb755f73c3c35a2b-ba9a0.png 650w,/static/5ca42794a3c0ac6dcb755f73c3c35a2b-31247.png 975w,/static/5ca42794a3c0ac6dcb755f73c3c35a2b-f83dc.png 1131w&quot;
-                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                  src=&quot;/static/5ca42794a3c0ac6dcb755f73c3c35a2b-cd462.png&quot;
+                  srcset=&quot;/static/5ca42794a3c0ac6dcb755f73c3c35a2b-92f91.png 188w,
+/static/5ca42794a3c0ac6dcb755f73c3c35a2b-dc30f.png 375w,
+/static/5ca42794a3c0ac6dcb755f73c3c35a2b-cd462.png 750w,
+/static/5ca42794a3c0ac6dcb755f73c3c35a2b-1de4a.png 1125w,
+/static/5ca42794a3c0ac6dcb755f73c3c35a2b-e767d.png 1131w&quot;
+                  sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
                 /&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
           &lt;/a&gt;
-          &lt;/div&gt;&lt;/p&gt;
+          &lt;/p&gt;
 &lt;p&gt;The first three records are my GitHub Pages DNS records for the redirection to work. The last two are the Mailchimp records that are needed for the verification process. &lt;strong&gt;Be careful cause they are not the same as the picture above. Won&apos;t work on Namecheap as is.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;
+&lt;p&gt;
           &lt;a
             class=&quot;gatsby-resp-image-link&quot;
-            title=&quot;original image&quot;
-            href=&quot;/static/b90904f5803577b2ccb01a457b960c6f-a3e6f.png&quot;
+            href=&quot;/static/b90904f5803577b2ccb01a457b960c6f-0ff98.png&quot;
             style=&quot;display: block&quot;
             target=&quot;_blank&quot;
+            rel=&quot;noopener&quot;
           &gt;
-            &lt;div
+            &lt;span
               class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; &quot;
+              style=&quot;position: relative; z-index: -1; display: block; &quot;
             &gt;
-              &lt;div
+              &lt;span
                 class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 49.11575562700965%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABC0lEQVQoz52SYU+EMAyG+f8/y/hBv13iEZRcJDBY0EsQ2MYYG3ulM+DFi0quyZOWtrxbm0VCCHRdh77vg99oOLTWu6D+pmkgpUSUP7dBrG1bKKXgnMM8zwur38c0TYFISxuCcRxhjNkK02S32NovqIcOp6noZt+9VLdBOMJi9LEWSPTyZMDDzX6JfYipl6BJqHeFct77a0GCCqvVjcZLZXDiBm8festTz88b/itI/ulY4u6B4f6xwOGQ3yZ4aXnKcUrKwGvCbhNc90KLF52CkgOUGCB7BT0M2553C9Z1DcYYsixDVVUBznnIF6zE+/l89c+fgiQQxzHSNEWSJCiKIrxRerjCOAg7/zryJ2VECZvymxQqAAAAAElFTkSuQmCC&apos;); background-size: cover;&quot;
+                style=&quot;padding-bottom: 49.11575562700965%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAABC0lEQVQoz52SYU+EMAyG+f8/y/hBv13iEZRcJDBY0EsQ2MYYG3ulM+DFi0quyZOWtrxbm0VCCHRdh77vg99oOLTWu6D+pmkgpUSUP7dBrG1bKKXgnMM8zwur38c0TYFISxuCcRxhjNkK02S32NovqIcOp6noZt+9VLdBOMJi9LEWSPTyZMDDzX6JfYipl6BJqHeFct77a0GCCqvVjcZLZXDiBm8festTz88b/itI/ulY4u6B4f6xwOGQ3yZ4aXnKcUrKwGvCbhNc90KLF52CkgOUGCB7BT0M2553C9Z1DcYYsixDVVUBznnIF6zE+/l89c+fgiQQxzHSNEWSJCiKIrxRerjCOAg7/zryJ2VECZvymxQqAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
               &gt;
                 &lt;img
                   class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
                   alt=&quot;&quot;
                   title=&quot;&quot;
-                  src=&quot;/static/b90904f5803577b2ccb01a457b960c6f-ba9a0.png&quot;
-                  srcset=&quot;/static/b90904f5803577b2ccb01a457b960c6f-125fe.png 163w,/static/b90904f5803577b2ccb01a457b960c6f-637de.png 325w,/static/b90904f5803577b2ccb01a457b960c6f-ba9a0.png 650w,/static/b90904f5803577b2ccb01a457b960c6f-31247.png 975w,/static/b90904f5803577b2ccb01a457b960c6f-a3e6f.png 1244w&quot;
-                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                  src=&quot;/static/b90904f5803577b2ccb01a457b960c6f-cd462.png&quot;
+                  srcset=&quot;/static/b90904f5803577b2ccb01a457b960c6f-92f91.png 188w,
+/static/b90904f5803577b2ccb01a457b960c6f-dc30f.png 375w,
+/static/b90904f5803577b2ccb01a457b960c6f-cd462.png 750w,
+/static/b90904f5803577b2ccb01a457b960c6f-1de4a.png 1125w,
+/static/b90904f5803577b2ccb01a457b960c6f-0ff98.png 1244w&quot;
+                  sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
                 /&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
           &lt;/a&gt;
-          &lt;/div&gt;&lt;/p&gt;
+          &lt;/p&gt;
 &lt;p&gt;So how do you handle your emails when on GitHub Pages?&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Database Migrations with Nodejs]]></title><description><![CDATA[A database is a vital part of every complex application. Databases change very often and contain data that can even disintegrate our whole...]]></description><link>https://kostasbariotis.com/data-migration-with-nodejs/</link><guid isPermaLink="false">https://kostasbariotis.com/data-migration-with-nodejs/</guid><pubDate>Sat, 14 May 2016 15:19:51 GMT</pubDate><content:encoded>&lt;p&gt;A database is a vital part of every complex application. Databases change very often and contain data that can even disintegrate our whole application if they get out of sync. Changing a live database, whether it&apos;s related to schema or data, can be hard. Modern apps, where Agile methodologies along with processes such as &lt;a href=&quot;http://continuousdelivery.com/&quot;&gt;Continuous Integration&lt;/a&gt; apply, have raised the bar of complexity so maintaining a database separately from the application&apos;s business logic can be quite painful.&lt;/p&gt;
 &lt;p&gt;Fortunately, we have &lt;a href=&quot;https://en.wikipedia.org/wiki/Schema_migration&quot;&gt;Database Migrations&lt;/a&gt;, a technique to help us keep our database changes under control.&lt;/p&gt;
 &lt;h2&gt;The problem&lt;/h2&gt;
@@ -1843,7 +1859,7 @@ you make sure that, when a feature release is out, you can just copy paste above
 &lt;p&gt;So in case you have bumped into the above symptoms check out that your PHP&apos;s memory limit is not set to infinite.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Does your code smells?]]></title><description><![CDATA[Programming is like my life. Being in the game since i was a little kid, it's like programming languages are my native languages. Writing...]]></description><link>https://kostasbariotis.com/does-your-code-smells/</link><guid isPermaLink="false">https://kostasbariotis.com/does-your-code-smells/</guid><pubDate>Mon, 25 Aug 2014 04:00:57 GMT</pubDate><content:encoded>&lt;p&gt;Programming is like my life. Being in the game since i was a little kid, it&apos;s like programming languages are my native languages. Writing good code matters a lot to me.&lt;/p&gt;
 &lt;p&gt;Being able to write clean code may not seem so important but hazardous situations will occur if you don&apos;t. In the long run, smelly code will make your project maintenance slow. At the end, it is possible, that you abandon it and start over. That is a disaster. And you should not allowed it.&lt;/p&gt;
 &lt;p&gt;I read a &lt;a title=&quot;Clean Code Handbook&quot; href=&quot;http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882&quot; target=&quot;_blank&quot;&gt;book &lt;/a&gt;past week. Reading this book, it was something i had to do loooong time before. Written at 2008, by the father of Good Code, &lt;a title=&quot;Martin Fowler Personal Page&quot; href=&quot;martinfowler.com&quot; target=&quot;_blank&quot;&gt;Martin Fowler&lt;/a&gt;, it opened my eyes for sure. So many principles i haven&apos;t even thought about it.&lt;/p&gt;
-&lt;p&gt;[caption id=&quot;attachment_287&quot; align=&quot;alignleft&quot; width=&quot;225&quot;]&lt;a href=&quot;http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882&quot;&gt;&lt;img class=&quot;wp-image-287 size-medium&quot; src=&quot;https://kbariotis.files.wordpress.com/2014/08/showcover.jpg?w=225&quot; alt=&quot;Clean Code by Martin Fowler&quot; width=&quot;225&quot; height=&quot;300&quot; /&gt;&lt;/a&gt; Clean Code by Martin Fowler[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&quot;attachment_287&quot; align=&quot;alignleft&quot; width=&quot;225&quot;]&lt;a href=&quot;http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882&quot;&gt;&lt;img src=&quot;https://kbariotis.files.wordpress.com/2014/08/showcover.jpg?w=225&quot; alt=&quot;Clean Code by Martin Fowler&quot;&gt;&lt;/a&gt; Clean Code by Martin Fowler[/caption]&lt;/p&gt;
 &lt;p&gt;Here&apos;s an example. All this time, i have been writing code, almost 50% of it were comments. I thought this is the way other programmers will understand me.  &lt;a title=&quot;Martin Fowler Personal Page&quot; href=&quot;martinfowler.com&quot; target=&quot;_blank&quot;&gt;Martin Fowler&lt;/a&gt; flipped it over. &quot;The proper use of comments is to compensate our self&apos;s for our failure to express our self&apos;s.&quot; he said.&lt;/p&gt;
 &lt;p&gt;Now, i am not going to write a book review. It&apos;s not something i am good at. I will put some of my favorites notes i kept from the book while reading it.&lt;/p&gt;
 &lt;p&gt;Take a look.&lt;/p&gt;
@@ -1917,47 +1933,48 @@ Now this is not just it. This book is a treasure for every programmer. If i got 
 &lt;/ul&gt;
 and paste them on the folder you have just created. Change the &apos;extension_dir&apos; setting from the first two files and open the third and make any appropriate changes.
 &lt;p&gt;Terminate WAMP and run it again, n&lt;strong&gt;ot just restart it&apos;s services.&lt;/strong&gt; And there you have it. Multiple PHP versions in just a click. Sweet right?&lt;/p&gt;
-&lt;p&gt;&lt;div&gt;
+&lt;p&gt;
           &lt;a
             class=&quot;gatsby-resp-image-link&quot;
-            title=&quot;original image&quot;
-            href=&quot;/static/a2ad69764ae9a649fabd9dce1333fd1c-0a0ae.jpg&quot;
+            href=&quot;/static/a2ad69764ae9a649fabd9dce1333fd1c-2ac8d.jpg&quot;
             style=&quot;display: block&quot;
             target=&quot;_blank&quot;
+            rel=&quot;noopener&quot;
           &gt;
-            &lt;div
+            &lt;span
               class=&quot;gatsby-resp-image-wrapper&quot;
-              style=&quot;position: relative; z-index: -1; &quot;
+              style=&quot;position: relative; z-index: -1; display: block; &quot;
             &gt;
-              &lt;div
+              &lt;span
                 class=&quot;gatsby-resp-image-background-image&quot;
-                style=&quot;padding-bottom: 105.32544378698225%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAfc4btGkjnECbAv/xAAbEAACAwADAAAAAAAAAAAAAAAAAgEREgMTIf/aAAgBAQABBQIR3ac2V7GSpJ5WiUfJ30f/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQMBAT8BVc//xAAWEQEBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8BTI//xAAcEAACAgIDAAAAAAAAAAAAAAAAARFBMTICIaH/2gAIAQEABj8COUvDMmzHBZQ+rNfT/8QAHBAAAgMAAwEAAAAAAAAAAAAAAAERITFBUaGB/9oACAEBAAE/ITJyFQuBtZ+S9tOyLH52S8+ysIVrlMtHmH//2gAMAwEAAgADAAAAEKfQPf/EABgRAQEAAwAAAAAAAAAAAAAAAAABESFx/9oACAEDAQE/ENuEpmv/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhcf/aAAgBAgEBPxBRJnY8wg//xAAdEAEAAgIDAQEAAAAAAAAAAAABABEhMUFRoZHw/9oACAEBAAE/EDcrlFGf1K1GuksoG1gpzBvnaPVcwBfrFS7GSLkF74VfEuBaV+an/9k=&apos;); background-size: cover;&quot;
+                style=&quot;padding-bottom: 105.32544378698225%;position: relative; width: 100%; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAfc4btGkjnECbAv/xAAbEAACAwADAAAAAAAAAAAAAAAAAgEREgMTIf/aAAgBAQABBQIR3ac2V7GSpJ5WiUfJ30f/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQMBAT8BVc//xAAWEQEBAQAAAAAAAAAAAAAAAAAAERD/2gAIAQIBAT8BTI//xAAcEAACAgIDAAAAAAAAAAAAAAAAARFBMTICIaH/2gAIAQEABj8COUvDMmzHBZQ+rNfT/8QAHBAAAgMAAwEAAAAAAAAAAAAAAAERITFBUaGB/9oACAEBAAE/ITJyFQuBtZ+S9tOyLH52S8+ysIVrlMtHmH//2gAMAwEAAgADAAAAEKfQPf/EABgRAQEAAwAAAAAAAAAAAAAAAAABESFx/9oACAEDAQE/ENuEpmv/xAAYEQADAQEAAAAAAAAAAAAAAAAAAREhcf/aAAgBAgEBPxBRJnY8wg//xAAdEAEAAgIDAQEAAAAAAAAAAAABABEhMUFRoZHw/9oACAEBAAE/EDcrlFGf1K1GuksoG1gpzBvnaPVcwBfrFS7GSLkF74VfEuBaV+an/9k=&apos;); background-size: cover; display: block;&quot;
               &gt;
                 &lt;img
                   class=&quot;gatsby-resp-image-image&quot;
-                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; box-shadow: inset 0px 0px 0px 400px white;&quot;
+                  style=&quot;width: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
                   alt=&quot;PHP Multiple Versions&quot;
                   title=&quot;&quot;
-                  src=&quot;/static/a2ad69764ae9a649fabd9dce1333fd1c-0a0ae.jpg&quot;
-                  srcset=&quot;/static/a2ad69764ae9a649fabd9dce1333fd1c-554d9.jpg 163w,/static/a2ad69764ae9a649fabd9dce1333fd1c-47899.jpg 325w,/static/a2ad69764ae9a649fabd9dce1333fd1c-0a0ae.jpg 338w&quot;
-                  sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+                  src=&quot;/static/a2ad69764ae9a649fabd9dce1333fd1c-2ac8d.jpg&quot;
+                  srcset=&quot;/static/a2ad69764ae9a649fabd9dce1333fd1c-451ee.jpg 188w,
+/static/a2ad69764ae9a649fabd9dce1333fd1c-2ac8d.jpg 338w&quot;
+                  sizes=&quot;(max-width: 750px) 100vw, 750px&quot;
                 /&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
+              &lt;/span&gt;
+            &lt;/span&gt;
           &lt;/a&gt;
-          &lt;/div&gt;&lt;/p&gt;
+          &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;UPDATE (20/09/2014) : Remember to download the Thread Safe version of PHP. Here&apos;s a brief &lt;a title=&quot;Thread Safe VS Non Thread Safe PHP&quot; href=&quot;http://stackoverflow.com/a/3983918/1955940&quot; target=&quot;_blank&quot;&gt;explanation &lt;/a&gt;on what&apos;s the difference.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Chase my money. Don’t waste my time.]]></title><link>https://kostasbariotis.com/chase-my-money-dont-waste-my-time/</link><guid isPermaLink="false">https://kostasbariotis.com/chase-my-money-dont-waste-my-time/</guid><pubDate>Mon, 30 Sep 2013 18:02:16 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://medium.com/on-startups/1e04889d4601&quot; title=&quot;Chase my money. Don’t waste my time.&quot;&gt;Chase my money. Don’t waste my time.&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;Read my thoughts on email marketing for startups on &lt;a title=&quot;Medium&quot; href=&quot;http://medium.com&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt;&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Μην ξεχάσετε τις λεπτομέρειες...]]></title><description><![CDATA[Με αφορμή  το καινούριο προφίλ της νεοσύστατης( αναγεννημένης μάλλον και μάλιστα μέσα απο τις στάχτες της) δημόσιας τηλεόρασης που βλέπετε...]]></description><link>https://kostasbariotis.com/men-xekhasete-tis-leptomereie/</link><guid isPermaLink="false">https://kostasbariotis.com/men-xekhasete-tis-leptomereie/</guid><pubDate>Tue, 24 Sep 2013 03:15:31 GMT</pubDate><content:encoded>&lt;p&gt;Με αφορμή  το καινούριο προφίλ της νεοσύστατης( αναγεννημένης μάλλον και μάλιστα μέσα απο τις στάχτες της) δημόσιας τηλεόρασης που βλέπετε &lt;a title=&quot;ΕΔΤ&quot; href=&quot;http://www.hprt.gr/&quot;&gt;εδώ&lt;/a&gt;, θα προσπαθήσω να κάνω μερικά σχόλια, όσον αφόρα την σχεδίαση αλλά και την υλοποιήση του έργου αυτού. Φένεται ένα καλό παράδειγμα για να θίξω μερικά φλέγον θέματα της κατασκευής web εφαρμογών εν έτη 2013.&lt;/p&gt;
 &lt;p&gt;Αρχικά, οι χρωματισμοί των διάφορων block κειμένου, χρήζουν άμεσης αναδιακόσμησης. Υπάρχουν τρεις διαφορετικοί χρωματισμοί, σε όλο το πλάτος της ιστοσελίδας για πάνω απο 10 διαφορετικά είδη κειμένου, όπως Τίτλοι, Βασικό Κείμενο, Πληροφορίες Αρθρογράφου, Σημαντικές Ειδήσεις, Μενού Κεντρικό(Επάνω) και πατώματος(footer).&lt;/p&gt;
-&lt;p&gt;[caption id=&quot;attachment_189&quot; align=&quot;aligncenter&quot; width=&quot;300&quot;]&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/snapshot2.png&quot;&gt;&lt;img class=&quot;size-medium wp-image-189 &quot; alt=&quot;snapshot2&quot; src=&quot;http://kbariotis.files.wordpress.com/2013/09/snapshot2.png?w=300&quot; width=&quot;300&quot; height=&quot;148&quot; /&gt;&lt;/a&gt; Ο επισκέπτης δεν μπορεί να διακρίνει τους τίτλους, τις συνόψεις, ποιές είναι σημαντικές και ποιες λιγότερο.[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&quot;attachment_189&quot; align=&quot;aligncenter&quot; width=&quot;300&quot;]&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/snapshot2.png&quot;&gt;&lt;img src=&quot;http://kbariotis.files.wordpress.com/2013/09/snapshot2.png?w=300&quot; alt=&quot;snapshot2&quot;&gt;&lt;/a&gt; Ο επισκέπτης δεν μπορεί να διακρίνει τους τίτλους, τις συνόψεις, ποιές είναι σημαντικές και ποιες λιγότερο.[/caption]&lt;/p&gt;
 &lt;p&gt;Θεωρώ την διαμόρφωση του κειμένου απαράδεκτη. Η ανάγνωση γίνεται κουραστική και δύσκολη. (Ωχ με την πρεσβυωπία σου ρε Μάνα! :( )Το περιεχόμενο στο διαδίκτυο θα πρέπει να καθρεφτίζει την παραδοσιακή ανάγνωση στο χαρτί. Δηστυχώς, η απουσίας βασικών κανόνων τυπογραφίας γίνετε αισθητή. Ακόμη και στην περίπτωση του copy-paste, κατι τέτοιο μυρίζομαι εδώ, θα μπορούσε η παρουσίαση να υλοποιείται μέσα απο CSS και να μην χρειάζετε ο αρθρογράφος να βάζει indentation κι άλλα τέτοια.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/snapshot3.png&quot;&gt;&lt;img class=&quot;aligncenter size-medium wp-image-190&quot; alt=&quot;snapshot3&quot; src=&quot;http://kbariotis.files.wordpress.com/2013/09/snapshot3.png?w=300&quot; width=&quot;300&quot; height=&quot;202&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/snapshot3.png&quot;&gt;&lt;img src=&quot;http://kbariotis.files.wordpress.com/2013/09/snapshot3.png?w=300&quot; alt=&quot;snapshot3&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Συγχαίρω την προσπάθεια για την κατασκευή του responsive template. Όμως, ένα απο τα κλειδιά του responsive design είναι η πλοήγηση του επισκέπτη. Το hover state σε mobile συσκευές δεν υφίσταται. Γι&apos;αυτο θα πρέπει να παίρνονται μέτρα για την κατάλληλη παρουσίαση των μενού σε τέτοιες συσκευές.&lt;/p&gt;
-&lt;p&gt;[caption id=&quot;attachment_196&quot; align=&quot;aligncenter&quot; width=&quot;300&quot;]&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/screenshot_2013-09-21-14-37-06.png&quot;&gt;&lt;img class=&quot;size-medium wp-image-196&quot; alt=&quot;Κάνοντας tap στον σύνδεσμο Ειδήσεις αντί για εμφάνιση του μενού θα ξανα-φορτώσει η σελίδα.&quot; src=&quot;http://kbariotis.files.wordpress.com/2013/09/screenshot_2013-09-21-14-37-06.png?w=300&quot; width=&quot;300&quot; height=&quot;187&quot; /&gt;&lt;/a&gt; Κάνοντας tap στον σύνδεσμο Ειδήσεις αντί για εμφάνιση του μενού θα ξανα-φορτώσει η σελίδα.[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&quot;attachment_196&quot; align=&quot;aligncenter&quot; width=&quot;300&quot;]&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/screenshot_2013-09-21-14-37-06.png&quot;&gt;&lt;img src=&quot;http://kbariotis.files.wordpress.com/2013/09/screenshot_2013-09-21-14-37-06.png?w=300&quot; alt=&quot;Κάνοντας tap στον σύνδεσμο Ειδήσεις αντί για εμφάνιση του μενού θα ξανα-φορτώσει η σελίδα.&quot;&gt;&lt;/a&gt; Κάνοντας tap στον σύνδεσμο Ειδήσεις αντί για εμφάνιση του μενού θα ξανα-φορτώσει η σελίδα.[/caption]&lt;/p&gt;
 &lt;p&gt;Τέλος, load time. Ξαφνιάστηκα απο την απουσία διάφορων widget που κυριαρχούν σε άλλα παρόμοια site (Facebook social plugins, Twitter, κλπ τα οποία αν δεν ενσωματωθούν σωστά, σε μια σελίδα, τρώνε πολύτιμο bandwith και γίνεται αισθητό στον τελικό χρήστη), σε αυτό λείπουν, εξού και η απόδοση. Μια ματιά όμως στην διαδικασίας φόρτωσης θα μας δείξει άλλα.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/hprt.png&quot;&gt;&lt;img class=&quot;size-full wp-image&quot; id=&quot;i-179&quot; alt=&quot;Image&quot; src=&quot;http://kbariotis.files.wordpress.com/2013/09/hprt.png?w=487&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/hprt.png&quot;&gt;&lt;img src=&quot;http://kbariotis.files.wordpress.com/2013/09/hprt.png?w=487&quot; alt=&quot;Image&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(Εντάξει, ας εξαιρέσουμε τα χαμένα fonts.) Θέλω να σταθώ όμως στα μη συμπιεσμένα(minified) αρχεία js, css κι άλλα assets. Η σμίκρυνση των αρχείων κώδικα μπορεί να αποφέρει σημαντική βελτίωση στον μέσο χρόνο φόρτωσης της σελίδας μας. Γενικά, τα 3.17 δευτερόλεπτα είναι ένας υποφερτός χρόνος αναμονής(σε 24mbit γραμμή, σε 3G θα υπάρχει πρόβλημα), μόλις όμως αρχίζουν να πεφτουν widget-ακια που προείπα, δυστηχώς θα αυξηθεί επικίνδυνα. Γι&apos; αυτο προνοήστε απο τώρα.  &lt;a href=&quot;http://googleresearch.blogspot.gr/2009/06/speed-matters.html&quot;&gt;Έρευνες&lt;/a&gt; &lt;a href=&quot;http://blog.kissmetrics.com/loading-time/&quot;&gt;έχουν&lt;/a&gt; δείξει πως ο μέσος χρόνος αναμονής έχει άμεσο αντίκτυπο στην επιστροφή του επισκέπτη στην ιστοσελίδα.. (Προσωπικά έχω κλείσει την ιστοσελίδα στο δεύτερο περίπου δευτερόλεπτο).&lt;/p&gt;
 &lt;p&gt;Υ.Γ:&lt;/p&gt;
-&lt;p&gt;[caption id=&quot;attachment_198&quot; align=&quot;aligncenter&quot; width=&quot;255&quot;]&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/ceb4ceb7cebccf8ccf83ceb9ceb1-cf84ceb7cebbceb5cf8ccf81ceb1cf83ceb7-hellenic-public-radio-television.png&quot;&gt;&lt;img class=&quot;size-full wp-image-198&quot; alt=&quot;Δημόσια Τηλεόραση - Hellenic Public Radio Television&quot; src=&quot;http://kbariotis.files.wordpress.com/2013/09/ceb4ceb7cebccf8ccf83ceb9ceb1-cf84ceb7cebbceb5cf8ccf81ceb1cf83ceb7-hellenic-public-radio-television.png&quot; width=&quot;255&quot; height=&quot;50&quot; /&gt;&lt;/a&gt; Σερτσ Μανούλα μου θα πεί &apos;ψάχνω&apos;. Γκο θα πεί &apos;φύγε&apos;.[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&quot;attachment_198&quot; align=&quot;aligncenter&quot; width=&quot;255&quot;]&lt;a href=&quot;http://kbariotis.files.wordpress.com/2013/09/ceb4ceb7cebccf8ccf83ceb9ceb1-cf84ceb7cebbceb5cf8ccf81ceb1cf83ceb7-hellenic-public-radio-television.png&quot;&gt;&lt;img src=&quot;http://kbariotis.files.wordpress.com/2013/09/ceb4ceb7cebccf8ccf83ceb9ceb1-cf84ceb7cebbceb5cf8ccf81ceb1cf83ceb7-hellenic-public-radio-television.png&quot; alt=&quot;Δημόσια Τηλεόραση - Hellenic Public Radio Television&quot;&gt;&lt;/a&gt; Σερτσ Μανούλα μου θα πεί &apos;ψάχνω&apos;. Γκο θα πεί &apos;φύγε&apos;.[/caption]&lt;/p&gt;
 &lt;p&gt;Σίγουρα, υπάρχουν κι άλλα που μπορείς πάντα να κάνεις για να βελτιώσεις μια παρουσίαση στο διαδίκτυο. Η συνεχής συντήρηση στις λεπτομερείες πιστεύω πως είναι το κλειδί.&lt;/p&gt;
 &lt;p&gt;Άλλες προτάσεις;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Bugsense και η... αμείλικτη αφοσίωση!]]></title><link>https://kostasbariotis.com/bugsense-wins/</link><guid isPermaLink="false">https://kostasbariotis.com/bugsense-wins/</guid><pubDate>Tue, 17 Sep 2013 04:57:58 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;http://meetin5.blogspot.gr/2012/04/startup-bugsense.html&quot; title=&quot;Bugsense και η... αμείλικτη αφοσίωση!&quot;&gt;Bugsense και η... αμείλικτη αφοσίωση!&lt;/a&gt;&lt;/p&gt;&lt;p&gt;Η ελληνική start up σκηνή προσθέτει άλλο ενα &lt;a href=&quot;http://www.emea.gr/%CE%B7-%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE-startup-bugsense-%CE%B5%CE%BE%CE%B1%CE%B3%CE%BF%CF%81%CE%AC%CE%B6%CE%B5%CF%84%CE%B1%CE%B9-%CE%B1%CF%80%CF%8C-%CF%84%CE%B7%CE%BD-splunk/357166&quot;&gt;βραβείο &lt;/a&gt;στο ενεργητικό της. Οι ιδρυτές της &lt;a title=&quot;BugSence&quot; href=&quot;https://www.google.gr/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;ved=0CDMQFjAA&amp;amp;url=http%3A%2F%2Fwww.bugsense.com%2F&amp;amp;ei=_go4UqqdHMbAhAfrvICQCw&amp;amp;usg=AFQjCNGMSTtmTn4i3GJEUotB6axhIDVYGA&amp;amp;sig2=Iw85DDQ1Rlh-nEGBUrqfvw&amp;amp;bvm=bv.52164340,d.ZG4&quot;&gt;BugSense&lt;/a&gt;, εξηγούν σε απλά ελληνικά την πορεία τους μέχρι τώρα, την συνεργασία τους με τον αμερικανικό όμιλο &lt;a href=&quot;https://www.google.gr/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;ved=0CEMQFjAA&amp;amp;url=http%3A%2F%2Fwww.splunk.com%2F&amp;amp;ei=TQs4UrXtMc20hAfR04DwCQ&amp;amp;usg=AFQjCNH0mmqx1CLXBHPhtOcJYpTuByD2zw&amp;amp;sig2=cJAi-DbzGEbq11PKrGo4Tw&amp;amp;bvm=bv.52164340,d.ZG4&quot;&gt;Splunk, &lt;/a&gt;τους λόγους που τους εμποδίζουν να προχωρήσουν και να φτάσουν μέχρι και να κατακτήσουν την Αμερικάνικη αγορά αλλά και τους λογούς που η ελληνική νομοθεσία τους κρατάει κάτω. Αστείρευτες πηγές έμπνευσης...&lt;/p&gt;&lt;p&gt;Προσωπικά, αυτό που κράτησα είναι η φράση, του γνωστού &quot;πειρατή&quot; Steve Jobs:&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;Προσωπικά, προτιμώ να είμαι πειρατής, παρά να καταταγώ στο ναυτικό, όπως είπε κάποτε ο Steve Jobs.&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Think different, λοιπόν και ένα μεγάλο `Εύγε!` στα παιδιά!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Here's your chance to ask President Barosso]]></title><link>https://kostasbariotis.com/heres-your-chance-to-ask-president-barosso/</link><guid isPermaLink="false">https://kostasbariotis.com/heres-your-chance-to-ask-president-barosso/</guid><pubDate>Mon, 09 Sep 2013 17:33:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;http://googlepolicyeurope.blogspot.gr/2013/09/whats-state-of-european-union-askbarroso.html&quot; title=&quot;Here&apos;s your chance to ask President Barosso &quot;&gt;Here&apos;s your chance to ask President Barosso &lt;/a&gt;&lt;/p&gt;&lt;p&gt;Google+ will host a hangout, main guest will be President of the European Comission &lt;b&gt;&lt;a title=&quot;José Manuel Barroso&quot; href=&quot;http://en.wikipedia.org/wiki/Jos%C3%A9_Manuel_Barroso&quot;&gt;José Manuel Barroso&lt;/a&gt;. Here&apos;s your chance...&lt;/b&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;i&gt;Is Europe really emerging from the financial crisis? What’s going to happen to Europe’s 5 million unemployed young people? Does the rise of euro-sceptic politics spell the end of the EU as we know it? Will Europe act on Syria? &lt;/i&gt;&lt;/p&gt;&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Simplicity is the key after all...]]></title><description><![CDATA[I was called to create a Facebook Page Application to take part on contests, while an Admin panel was necessary to manage those contests...]]></description><link>https://kostasbariotis.com/simplicity-is-the-key-after-all/</link><guid isPermaLink="false">https://kostasbariotis.com/simplicity-is-the-key-after-all/</guid><pubDate>Mon, 02 Sep 2013 16:02:09 GMT</pubDate><content:encoded>&lt;p&gt;I was called to create a Facebook Page Application to take part on contests, while an Admin panel was necessary to manage those contests. When i first heard about it, i immediately thought to give a try a new &lt;a title=&quot;Fat Free Framework&quot; href=&quot;http://fatfreeframework.com&quot; target=&quot;_blank&quot;&gt;PHP framework&lt;/a&gt; i was working on lately. It&apos;s based on &lt;a title=&quot;MVC Pattern&quot; href=&quot;http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller&quot; target=&quot;_blank&quot;&gt;MVC principles.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;So, the main idea was that i would keep separate Controllers, one to serve the Facebook app through Facebook&apos;s iframe, that would answer only to POSTs, etc, etc; and one that would serve users wanting to access the Admin panel from anywhere.  I created separate Views on the Controller, that was serving the Facebook Page app, one that would determine if the user has liked our page or not, if the contest was currently drawed and would redirect the Facebook&apos;s iframe on the appropriate View.&lt;/p&gt;
