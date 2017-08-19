@@ -1,20 +1,12 @@
 {
   "assetsByChunkName": {
     "commons": [
-      "commons-e0a7e4b245322d1193e5.js",
-      "commons-e0a7e4b245322d1193e5.js.map"
+      "commons-93efbb849fc31e9e2c66.js",
+      "commons-93efbb849fc31e9e2c66.js.map"
     ],
     "page-component---src-templates-blog-post-js": [
-      "page-component---src-templates-blog-post-js-b7af7bd3d6765b610ae6.js",
-      "page-component---src-templates-blog-post-js-b7af7bd3d6765b610ae6.js.map"
-    ],
-    "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-227f519ecc00f6e67f13.js",
-      "page-component---src-pages-index-js-227f519ecc00f6e67f13.js.map"
-    ],
-    "page-component---src-pages-about-js": [
-      "page-component---src-pages-about-js-924806924d5fcc0a7b30.js",
-      "page-component---src-pages-about-js-924806924d5fcc0a7b30.js.map"
+      "page-component---src-templates-blog-post-js-135d2272d1ce9006c45a.js",
+      "page-component---src-templates-blog-post-js-135d2272d1ce9006c45a.js.map"
     ],
     "layout-component---index": [
       "layout-component---index-293043d5d4d88c0e60c6.js",
@@ -760,17 +752,25 @@
       "path---28-things-id-do-differently-next-time-around-d4b9d21ee67f3c594594.js",
       "path---28-things-id-do-differently-next-time-around-d4b9d21ee67f3c594594.js.map"
     ],
+    "page-component---src-pages-index-js": [
+      "page-component---src-pages-index-js-cca34a87099db971ac77.js",
+      "page-component---src-pages-index-js-cca34a87099db971ac77.js.map"
+    ],
     "page-component---src-pages-drafts-js": [
       "page-component---src-pages-drafts-js-da467bec82477d34f8fe.js",
       "page-component---src-pages-drafts-js-da467bec82477d34f8fe.js.map"
+    ],
+    "page-component---src-pages-about-js": [
+      "page-component---src-pages-about-js-34436eb48a03d42dd9e9.js",
+      "page-component---src-pages-about-js-34436eb48a03d42dd9e9.js.map"
     ],
     "page-component---src-pages-404-js": [
       "page-component---src-pages-404-js-3c8ff0b05a596615afd8.js",
       "page-component---src-pages-404-js-3c8ff0b05a596615afd8.js.map"
     ],
     "app": [
-      "app-4bfa7919861bbd72d8a2.js",
-      "app-4bfa7919861bbd72d8a2.js.map"
+      "app-8786a4dfa8f381e4726f.js",
+      "app-8786a4dfa8f381e4726f.js.map"
     ]
   }
 }
